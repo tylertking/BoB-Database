@@ -15,7 +15,6 @@ else:
     df = pd.read_csv("Specialist_Mission_BoBs.csv")
 
 df 
-
 print(df.shape)
 arr = []
 totalArr = []
