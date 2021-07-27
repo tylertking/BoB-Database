@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import pylab
 from cycler import cycler
 
+pd.set_option("display.max_rows", None, "display.max_columns", None)
+
 def graph_img(sizes, labels, str1, str2):
     fig1, ax1 = plt.subplots(figsize=(5, 5))
     fig1.subplots_adjust(0.3, 0, 1, 1)
@@ -32,21 +34,15 @@ def graph_img(sizes, labels, str1, str2):
         bbox_to_anchor=(0.0, 1),
         bbox_transform=fig1.transFigure
     )
-    
+
     ax1.set_title(str1 + ': ' + str2, y=.98, pad=-14)
     plt.show()
 
 str3 = input("Daily or Specialist?: ")
 if (str3 == "Daily"):
     df = pd.read_csv("Daily_Mission_BoBs.csv")
-elif (str3 == "both"):
-    df2 = pd.read_csv("Daily_Mission_BoBs.csv")
-    df3 = pd.read_csv("Specialist_Mission_BoBs.csv")
-    frames = [df2, df3]
-    df = pd.concat(frames)
 else: 
     df = pd.read_csv("Specialist_Mission_BoBs.csv")
-pd.set_option('display.max_rows', df.shape[0]+1)
 
 df 
 print(df.shape)

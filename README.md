@@ -1,6 +1,6 @@
 ## Table of Contents
-[General Info][#general-info]
-[Changelog][#changelog]
+- [General Info](https://github.com/TheUltimatePhase/BoB-Database#general-info)
+- [Changelog](https://github.com/TheUltimatePhase/BoB-Database#changelog)
 
 ## General info
 Database of first place finishes in the video game [Phoenix 2](https://firigames.com/phoenix2) since the introduction of SSSS League. Basic code provided that allows for analysis on a per-cycle basis and sorting by player and ship. 
@@ -13,7 +13,8 @@ Database of first place finishes in the video game [Phoenix 2](https://firigames
 - 2021-05-29 Created BoB counter for specific players and ships that displays data as pie charts
 - 2021-06-03 Created a new database for specialist missions and incorporated into the [BoB Counter](specificCounterBoB.py)
 - 2021-06-12 Added cycle counter for BoBs
-
+- 2021-06-20 Incorporated a legend and added larger variety of colors for pie charts with >10 entries
+- 2021-06-21 Combined different colorm maps to enable greater contrast, added title
 ### Future Additions
-- Incorporate more colors into pie charts to disallow repeat colors
-- Include a legend when labels become too cluttered
+- Allow for selection between legend and non-legend
+- Allow for other graphs to be selected 
