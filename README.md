@@ -15,6 +15,8 @@ Database of first place finishes in the video game [Phoenix 2](https://firigames
 - 2021-06-12 Added cycle counter for BoBs
 - 2021-06-20 Incorporated a legend and added larger variety of colors for pie charts with >10 entries
 - 2021-06-21 Combined different colorm maps to enable greater contrast, added title
+- 2021-08-21 Updated BoB count to mission 2032
+- 2022-01-04 Removed redundant file and updated BoB count to mission 2194
 ### Future Additions
 - Allow for selection between legend and non-legend
 - Allow for other graphs to be selected 
